@@ -180,20 +180,8 @@ src/tests.py
 
 ##  Screenshots
 
-> 📌 **Add screenshots here before submission**
-
-Suggested screenshots:
-
-* Project folder structure (VS Code)
-* Sample input question
-* JSON output result
-* Verification pass/fail example
-
-Example:
-
-```md
-![Project Structure](screenshots/project_structure.png)
-```
+![image 1](https://github.com/vinozzxx/-Reasoning-Agent/blob/9b6cb62615c65f6b14a634f97af532ebff49f905/image%201.png)
+![image 2](https://github.com/vinozzxx/-Reasoning-Agent/blob/9b6cb62615c65f6b14a634f97af532ebff49f905/image%202%20.png)
 
 ---
 
