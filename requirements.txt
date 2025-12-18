@@ -1,0 +1,10 @@
+langchain
+openai
+fastapi
+uvicorn
+pydantic
+pytest
+python-dotenv
+streamlit
+langchain-groq
+groq
