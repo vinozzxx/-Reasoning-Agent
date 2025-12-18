@@ -1,4 +1,4 @@
-# 🧠 Multi-Step Reasoning Agent with Self‑Checking
+#  Multi-Step Reasoning Agent with Self‑Checking
 
 This project implements a **multi‑step reasoning agent** that solves structured word problems using a **Planner → Executor → Verifier** architecture. The agent produces accurate answers while **hiding raw chain‑of‑thought**, exposing only short, user‑friendly reasoning and metadata for debugging.
 
@@ -6,18 +6,18 @@ This repository was built as part of a **Junior AI/ML / GenAI Engineer assignmen
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-* ✅ Planner–Executor–Verifier agent loop
-* ✅ Dynamic retries when verification fails
-* ✅ Chain‑of‑thought hidden from end users
-* ✅ Modular prompt design (no hard‑coded prompts)
-* ✅ CLI / API‑ready architecture
-* ✅ Easy to swap LLM providers (Groq / OpenAI / etc.)
+*  Planner–Executor–Verifier agent loop
+*  Dynamic retries when verification fails
+*  Chain‑of‑thought hidden from end users
+*  Modular prompt design (no hard‑coded prompts)
+*  CLI / API‑ready architecture
+*  Easy to swap LLM providers (Groq / OpenAI / etc.)
 
 ---
 
-## 🧩 Problem Types Supported
+##  Problem Types Supported
 
 * Time difference calculations
 * Arithmetic & logical reasoning
@@ -30,23 +30,23 @@ This repository was built as part of a **Junior AI/ML / GenAI Engineer assignmen
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 The agent runs in **three internal phases**:
 
-### 1️⃣ Planner
+### 1️ Planner
 
 * Reads the user question
 * Breaks it into a concise step‑by‑step plan
 * Example steps: parse → extract data → compute → validate → format
 
-### 2️⃣ Executor
+### 2️ Executor
 
 * Executes the plan step by step
 * Produces intermediate calculations
 * Uses Python or LLM calls as needed
 
-### 3️⃣ Verifier
+### 3️ Verifier
 
 * Independently checks the solution
 * Validates constraints and consistency
@@ -56,7 +56,7 @@ Only the **final answer + short explanation** are shown to the user.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 .
@@ -87,7 +87,7 @@ Only the **final answer + short explanation** are shown to the user.
 
 ---
 
-## 📌 Where Prompts Live
+##  Where Prompts Live
 
 All prompts are **separated from code** and stored under:
 
@@ -106,22 +106,22 @@ This makes the system:
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
-### 1️⃣ Create virtual environment
+### 1️ Create virtual environment
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 ```
 
-### 2️⃣ Install dependencies
+### 2️ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Add environment variables
+### 3️ Add environment variables
 
 Create a `.env` file:
 
@@ -129,7 +129,7 @@ Create a `.env` file:
 LLM_API_KEY=your_api_key_here
 ```
 
-### 4️⃣ Run the agent
+### 4️ Run the agent
 
 ```bash
 python app.py
@@ -137,7 +137,7 @@ python app.py
 
 ---
 
-## 🔄 Output Format (JSON)
+##  Output Format (JSON)
 
 ```json
 {
@@ -160,7 +160,7 @@ python app.py
 
 ---
 
-## 🧪 Testing & Evaluation
+##  Testing & Evaluation
 
 * Includes **easy + tricky test cases**
 * Logs:
@@ -178,7 +178,7 @@ src/tests.py
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 > 📌 **Add screenshots here before submission**
 
@@ -197,7 +197,7 @@ Example:
 
 ---
 
-## 🧠 Prompt Design Rationale
+##  Prompt Design Rationale
 
 * Planner prompt focuses on **explicit step enumeration**
 * Executor prompt enforces **step‑by‑step execution**
@@ -216,7 +216,7 @@ Example:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Vinod Kumar**
 Junior AI/ML Engineer Candidate
