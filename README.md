@@ -15,8 +15,6 @@ This project implements a **multi‑step reasoning agent** that solves structure
 ![image 4 ](https://github.com/vinozzxx/-Reasoning-Agent/blob/371b599ac9e812334fdec366672cee1918dec003/image%202%20.png)
 
 
-
-
 ---
 
 ##  Key Features
