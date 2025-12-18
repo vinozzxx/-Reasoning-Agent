@@ -2,6 +2,12 @@
 
 This project implements a **multi‑step reasoning agent** that solves structured word problems using a **Planner → Executor → Verifier** architecture. The agent produces accurate answers while **hiding raw chain‑of‑thought**, exposing only short, user‑friendly reasoning and metadata for debugging.
 
+---
+
+##  Screenshots
+
+![image 1](https://github.com/vinozzxx/-Reasoning-Agent/blob/9b6cb62615c65f6b14a634f97af532ebff49f905/image%201.png)
+![image 2](https://github.com/vinozzxx/-Reasoning-Agent/blob/9b6cb62615c65f6b14a634f97af532ebff49f905/image%202%20.png)
 
 ---
 
@@ -170,15 +176,6 @@ Test file:
 ```
 src/tests.py
 ```
-
----
-
-##  Screenshots
-
-![image 1](https://github.com/vinozzxx/-Reasoning-Agent/blob/9b6cb62615c65f6b14a634f97af532ebff49f905/image%201.png)
-![image 2](https://github.com/vinozzxx/-Reasoning-Agent/blob/9b6cb62615c65f6b14a634f97af532ebff49f905/image%202%20.png)
-
----
 
 ##  Prompt Design Rationale
 
