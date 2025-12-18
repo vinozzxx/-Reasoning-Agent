@@ -2,7 +2,6 @@
 
 This project implements a **multi‑step reasoning agent** that solves structured word problems using a **Planner → Executor → Verifier** architecture. The agent produces accurate answers while **hiding raw chain‑of‑thought**, exposing only short, user‑friendly reasoning and metadata for debugging.
 
-This repository was built as part of a **Junior AI/ML / GenAI Engineer assignment**.
 
 ---
 
@@ -23,10 +22,6 @@ This repository was built as part of a **Junior AI/ML / GenAI Engineer assignmen
 * Arithmetic & logical reasoning
 * Constraint satisfaction problems
 * Multi‑step word problems
-
-**Example:**
-
-> *“A meeting needs 60 minutes. Free slots are 09:00–09:30, 09:45–10:30, 11:00–12:00. Which slots fit?”*
 
 ---
 
@@ -126,7 +121,7 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 ```
-LLM_API_KEY=your_api_key_here
+Groq_API_KEY=your_api_key_here
 ```
 
 ### 4️ Run the agent
@@ -211,4 +206,3 @@ Junior AI/ML Engineer Candidate
 
 ---
 
-⭐ *If you find this project useful, feel free to star the repository.*
